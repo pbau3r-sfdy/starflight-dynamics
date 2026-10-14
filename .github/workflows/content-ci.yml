@@ -45,7 +45,7 @@ jobs:
           token: ${{ secrets.WM_DISPATCH_PAT }}
           repository: pbau3r-sfdy/WebsiteMocker
           event-type: content-updated
-          client-payload: '{"slug": "sfdy-alt-clean"}'
+          client-payload: '{"slug": "sfdy"}'
 
 # Note: peter-evans/repository-dispatch@v4 is pinned to a floating major tag.
 # This is acceptable for this repo's current threat profile. If the threat profile
